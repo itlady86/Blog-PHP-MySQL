@@ -1,0 +1,52 @@
+:root {
+    --text-color: rgb(0,0,0,0.7);
+    --text-color-hover: black;
+}
+a {
+     text-decoration: none;
+     color: var(--text-color)
+    }
+
+a:hover {
+    color: var(--text-color-hover);
+}
+
+.bg-text {
+    background: lightgreen;
+}
+
+.mybtn1 {
+    width: 150px;
+}
+
+.mybtn2 {
+    width: 250px;
+    color: var(--text-color);
+    font-size: 1.75rem;
+}
+
+.mybtn2:hover{
+    font-weight: bolder;
+    background: orangered !important;
+}
+
+.article {
+    padding-right: 30px !important;
+}
+
+.delBtn {
+    text-indent: -60px;
+}
+
+.cross {
+    border: none;
+    background: transparent;
+    font-weight: bold;
+    font-size: 3rem;
+    color: gray;
+}
+
+.cross:hover {
+    color: indianred;
+}
+
